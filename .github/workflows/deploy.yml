@@ -22,7 +22,7 @@ jobs:
     services:
       mongodb:
         image: mongo
-        restart: always
+        # restart: always
         env:
           MONGO_INITDB_ROOT_USERNAME: root
           MONGO_INITDB_ROOT_PASSWORD: example
